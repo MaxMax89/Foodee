@@ -1,0 +1,53 @@
+<?$APPLICATION->IncludeComponent(
+	"bitrix:catalog.sections.top",
+	"catalog",
+	[
+		"ACTION_VARIABLE" => "action",
+		"BASKET_URL" => "/personal/basket.php",
+		"CACHE_FILTER" => "N",
+		"CACHE_GROUPS" => "Y",
+		"CACHE_TIME" => "36000000",
+		"CACHE_TYPE" => "A",
+		"CONVERT_CURRENCY" => "N",
+		"DETAIL_URL" => "",
+		"DISPLAY_COMPARE" => "N",
+		"ELEMENT_COUNT" => "4",
+		"ELEMENT_SORT_FIELD" => "sort",
+		"ELEMENT_SORT_FIELD2" => "id",
+		"ELEMENT_SORT_ORDER" => "asc",
+		"ELEMENT_SORT_ORDER2" => "desc",
+		"FILTER_NAME" => "arrFilter",
+		"HIDE_NOT_AVAILABLE" => "N",
+		"IBLOCK_ID" => "14",
+		"IBLOCK_TYPE" => "Catalog",
+		"LINE_ELEMENT_COUNT" => "3",
+		"PRICE_CODE" => [
+		],
+		"PRICE_VAT_INCLUDE" => "Y",
+		"PRODUCT_ID_VARIABLE" => "id",
+		"PRODUCT_PROPERTIES" => [
+		],
+		"PRODUCT_PROPS_VARIABLE" => "prop",
+		"PRODUCT_QUANTITY_VARIABLE" => "quantity",
+		"PROPERTY_CODE" => array("","CURRENCY","PRICE"),
+		"SECTION_COUNT" => "20",
+		"SECTION_FIELDS" => [
+			0 => "",
+			1 => "",
+		],
+		"SECTION_ID_VARIABLE" => "SECTION_ID",
+		"SECTION_SORT_FIELD" => "sort",
+		"SECTION_SORT_ORDER" => "asc",
+		"SECTION_URL" => "",
+		"SECTION_USER_FIELDS" => [
+			0 => "",
+			1 => "",
+		],
+		"SHOW_PRICE_COUNT" => "1",
+		"USE_MAIN_ELEMENT_SECTION" => "N",
+		"USE_PRICE_COUNT" => "N",
+		"USE_PRODUCT_QUANTITY" => "N",
+		"COMPONENT_TEMPLATE" => "catalog"
+	],
+	false
+);?>
