@@ -6,9 +6,9 @@
 			<div class="fh5co-menu-1">
 				<?$APPLICATION->IncludeComponent(
 					"bitrix:menu",
-					"top_menu",
+					"menu.top",
 					array(
-						"COMPONENT_TEMPLATE" => "top_menu",
+						"COMPONENT_TEMPLATE" => "menu.top",
 						"ROOT_MENU_TYPE" => "top_left",
 						"MENU_CACHE_TYPE" => "N",
 						"MENU_CACHE_TIME" => "3600",
@@ -36,9 +36,9 @@
 			<div class="fh5co-menu-2">
 				<?$APPLICATION->IncludeComponent(
 					"bitrix:menu",
-					"top_menu",
+					"menu.top",
 					array(
-						"COMPONENT_TEMPLATE" => "top_menu",
+						"COMPONENT_TEMPLATE" => "menu.top",
 						"ROOT_MENU_TYPE" => "top_right",
 						"MENU_CACHE_TYPE" => "N",
 						"MENU_CACHE_TIME" => "3600",
@@ -58,23 +58,4 @@
 
 	</div>
 </div>
-<!--------------------------------->
-<?$APPLICATION->IncludeComponent(
-	"bitrix:menu",
-	"top_menu",
-	array(
-		"COMPONENT_TEMPLATE" => "top_menu",
-		"ROOT_MENU_TYPE" => "left",
-		"MENU_CACHE_TYPE" => "N",
-		"MENU_CACHE_TIME" => "3600",
-		"MENU_CACHE_USE_GROUPS" => "Y",
-		"MENU_CACHE_GET_VARS" => array(
-		),
-		"MAX_LEVEL" => "1",
-		"CHILD_MENU_TYPE" => "left",
-		"USE_EXT" => "N",
-		"DELAY" => "N",
-		"ALLOW_MULTI_SELECT" => "N"
-	),
-	false
-);?>
+
